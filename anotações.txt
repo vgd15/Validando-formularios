@@ -1,0 +1,23 @@
+Tipo	Descrição
+button	Define um botão clicável
+number	Define um campo para número inteiro
+text	Define um campo para texto que permite também números e caracteres especiais
+date	Define um campo para data
+checkbox	Define uma caixa de seleção para múltiplas opções
+radio	Define uma caixa de seleção para opção única
+password	Define um campo de senha
+submit	Define um botão para enviar os dados
+tel	Define um campo para telefone
+
+
+<!--
+    \d{3}\  agrupa um número de 0 a 9 por três vezes; 
+    o trecho .? indica que o grupo de dígitos poderá ser seguido por um ponto, onde o ? indica que esse critério é opcional.
+    o trecho -? indica que o grupo de dígitos poderá ser seguido por um traço, critério que também é opcional.
+    o trecho final \d{2} agrupa um número de 0 a 9 por duas vezes.
+--> 
+
+Com o método setCustomValidity é possível alterar o valor de customError. Com isso, a mensagem do erro 
+específica de acordo com o valor da propriedade do erro dentro do validityState irá aparecer pois 
+o valor de customError não será mais false.
+
